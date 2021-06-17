@@ -1,0 +1,1 @@
+# demo-vault-versioned-static-secrets-kv2
