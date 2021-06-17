@@ -11,6 +11,8 @@ docker network create dev-network
 
 docker run --name vault-demo-vault --network dev-network -p 8200:8200 hashicorp/vault-enterprise:1.7.3_ent server -dev -dev-root-token-id="root" &
 
+sleep 10
+
 # login with root token
 vault login root
 
