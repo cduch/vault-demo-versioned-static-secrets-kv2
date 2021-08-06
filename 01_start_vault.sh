@@ -15,6 +15,3 @@ sleep 10
 
 # login with root token
 vault login root
-
-#write Vault Enterprise License (assuming it's already in a ENV Variable)
-vault write sys/license text="${VAULT_LICENSE}"
